@@ -12,18 +12,18 @@
         }
 
         th {
-            background-color: #4caf96;
+            background-color: #4caf8e;
             color: white;
-            padding: 12px;
-            text-align: left;
+            padding: 13px;
+            text-align:left;
         }
 
         td {
-            padding: 8px;
+            padding: 9px;
             border-bottom: 1px solid #ddd;
         }
 
-        
+    
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
@@ -34,54 +34,42 @@
     </style>
 </head>
 <body>
-    <table id="tabelaProdutos">
+    <table>
         <thead>
             <tr>
                 <th>Produto</th>
                 <th>Descrição</th>
-                <th>Preço</th>
+                <th>Valor</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Notebook Gamer</td>
-                <td>Notebook com processador i7, 16GB RAM, SSD 512GB</td>
-                <td>R$ 5.499,99</td>
+                <td>Notebook Dell</td>
+                <td>Notebook com processador i5, 8GB RAM, SSD 256GB</td>
+                <td>R$ 3.999,00</td>
             </tr>
             <tr>
-                <td>Smartphone XYZ</td>
-                <td>Celular com 128GB, tela AMOLED, câmera 48MP</td>
-                <td>R$ 2.199,99</td>
-            </tr>
-            <tr>
-                <td>Mouse Sem Fio</td>
-                <td>Mouse ergonômico com bateria de longa duração</td>
-                <td>R$ 89,99</td>
+                <td>Mouse Gamer</td>
+                <td>Mouse RGB com 6 botões programáveis</td>
+                <td>R$ 199,90</td>
             </tr>
             <tr>
                 <td>Teclado Mecânico</td>
-                <td>Teclado RGB com switches blue</td>
-                <td>R$ 299,99</td>
+                <td>Teclado mecânico com switches blue</td>
+                <td>R$ 299,90</td>
+            </tr>
+            <tr>
+                <td>Monitor 24"</td>
+                <td>Monitor LED Full HD 75Hz</td>
+                <td>R$ 899,90</td>
+            </tr>
+            <tr>
+                <td>Headset</td>
+                <td>Headset com microfone e cancelamento de ruído</td>
+                <td>R$ 249,90</td>
             </tr>
         </tbody>
     </table>
-
-    <script>
-       
-        function adicionarProduto(produto, descricao, preco) {
-            const tabela = document.getElementById('tabelaProdutos').getElementsByTagName('tbody')[0];
-            const novaLinha = tabela.insertRow();
-            
-            const celulaProduto = novaLinha.insertCell(0);
-            const celulaDescricao = novaLinha.insertCell(1);
-            const celulaPreco = novaLinha.insertCell(2);
-            
-            celulaProduto.textContent = produto;
-            celulaDescricao.textContent = descricao;
-            celulaPreco.textContent = preco;
-        }
-
-        
-    </script>
 </body>
 </html>
+
