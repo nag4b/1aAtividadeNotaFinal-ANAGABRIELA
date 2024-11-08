@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1aAtividadeNotaFinal-ANAGABRIELA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .profile-container {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .info-section {
+            background-color: #af9090;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+       
+        }
+        h3{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#d3cece
+        }
+        h4{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#adadad
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="C:\Users\Munike\Downloads\primaplast in\avatar3.jpg" alt="Foto de Perfil" class="profile-img">
+        <h1>Ana Gabriela Barros</h1>
+        <h3>Desenvolvedora web</h3>
+        <h4>Matrícula:202403638011</h4>
+    </div>
 
+    <div class="info-section">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Ana Gabriela estou atualmente no segundo período de Ciência da Computação, cada vez mais me apaixoando por programação. Estou focando em aprender os fundamentos da computação e criando experiência em HTML, CSS e JavaScript.</p>
+    </div>
+
+    <div class="info-section">
+        <h2>Curso</h2>
+        <p><strong>Graduação:</strong> Bacharelado em Ciência da Computação</p>
+        <p><strong>Período:</strong> 2º Período</p>
+        <p><strong>Disciplinas Atuais:</strong></p>
+        <ul>
+            <li>Estruturas de Dados</li>
+            <li>Cálculo II</li>
+            <li>Programação Orientada a Objetos</li>
+            <li>Arquitetura de Computadores</li>
+            <li>Matemática Discreta</li>
+        </ul>
+    </div>
+
+    <div class="info-section">
+        <h2>Objetivo Profissional</h2>
+        <p>Meu objetivo é me tornar um desenvolvedor full-stack, com foco em tecnologias web e mobile. Tenho especial interesse em inteligência artificial e desenvolvimento de software. Busco oportunidades de estágio para aplicar os conhecimentos adquiridos na faculdade e ganhar experiência prática no mercado de trabalho.</p>
+    </div>
+</body>
+</html>
